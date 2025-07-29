@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-gray-100: oklch(96.7% 0.003 264.542);
+    --color-gray-600: oklch(44.6% 0.03 256.802);
     --spacing: 0.25rem;
     --text-8xl: 6rem;
     --text-8xl--line-height: 1;
@@ -194,6 +195,9 @@
   }
   .bg-gray-100 {
     background-color: var(--color-gray-100);
+  }
+  .bg-gray-600 {
+    background-color: var(--color-gray-600);
   }
   .text-8xl {
     font-size: var(--text-8xl);
