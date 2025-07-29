@@ -7,26 +7,51 @@
     <title>Portfolio</title>
 </head>
 <body class="bg-[#d9d9d9]">
-    <header class="flex flex-row">
-        <img src="" alt="logo">
+    <header class="header flex w-full justify-center">
+        <div class="container px-[14px]">
+            <div class="header__wrapper h-[60px] flex text-gray-800 justify-between items-center">
+                <div class="header__logo hover:cursor-pointer h-full">
+                    <a href="#" class="flex h-full items-center">
+                        <img src="../images/D.png" alt="logo" class="h-[40px]">
+                    </a>
+                </div>
 
-        <ul class="flex flex-row gap-2">
-            <li><a href="">About</a></li>
-            <li><a href="">Work</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+                <div class="header__nav">
+                    <ul class="flex flex-row gap-[50px]">
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">WORK</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <h1>Kenaniah Sumang Portfolio na Malupet</h1>
-    <h2>Kenaniah Daniel</h2>
+    <section class="banner flex w-full justify-center">
+        <div class="container px-[17px]">
+            <div class="banner__wrapper flex justify-center">
+                <div class="banner__contents flex flex-col gap-[15px] bg-amber-200 py-14 px-17 rounded-4xl shadow-2xl">
+                    <h2>Hi, I'm <span class="font-bold">Kenaniah Daniel</span></h2>
+                    <p class="text-3xl">I design and develop software your users will love</p>
+                    <p>I am a Computer Science graduate</p>
+                    <button>
+                        <span>See More</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section class="flex flex-col gap-4 text-8xl">
+
+    <!-- <h1>Kenaniah Sumang Portfolio na Malupet</h1>
+
+    <section>
         <h2>Projects</h2>
         <ul>
             <li><a href="https://kensumang.github.io/vscode/dist/">VS Code clone website</a></li>
             <li><a href="https://kensumang.github.io/spotify-tailwind/dist/">Spotify clone website</a></li>
             <li>Motor Shop Inventory System</li>
         </ul>
-    </section>
+    </section> -->
 </body>
 </html>
