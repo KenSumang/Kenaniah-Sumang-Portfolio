@@ -193,6 +193,9 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[\#d9d9d9\] {
+    background-color: #d9d9d9;
+  }
   .bg-gray-100 {
     background-color: var(--color-gray-100);
   }
