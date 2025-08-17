@@ -6,21 +6,22 @@
     <link href="output.css" rel="stylesheet">
     <title>Portfolio</title>
 </head>
-<body class="bg-[#d9d9d9]">
+<body class="bg-[#0B0B0B]">
     <header class="header flex w-full justify-center">
         <div class="container px-[14px]">
             <div class="header__wrapper h-[60px] flex text-gray-800 justify-between items-center">
                 <div class="header__logo hover:cursor-pointer h-full">
-                    <a href="#" class="flex h-full items-center">
-                        <img src="../images/D.png" alt="logo" class="h-[40px]">
+                    <a href="#" class="flex h-full items-center gap-[2px]">
+                        <img src="../images/D.png" alt="logo" class="h-[35px]">
+                        <p class="text-[16px] text-[#a8a8a8]">ANIEL</p>
                     </a>
                 </div>
 
-                <div class="header__nav">
+                <div class="header__nav text-white">
                     <ul class="flex flex-row gap-[50px]">
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">WORK</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -29,15 +30,18 @@
 
     <section class="banner flex w-full h-[550px] justify-center items-center">
         <div class="container px-[14px] py-[35px]">
-            <div class="banner__wrapper flex justify-center">
-                <div class="banner__contents flex flex-col gap-[20px] bg-[#d9d9d9] py-12 px-19 shadow-lg shadow-black/25 inset-shadow-sm inset-shadow-white/50 rounded-4xl w-[600px]">
-                    <h2 class="text-[17px] text-white">Hi, I'm <span class="font-bold">Kenaniah Daniel</span></h2>
-                    <p class="text-3xl font-bold text-gray-400">I design and develop software your users will love</p>
-                    <h2 class="text-[17px] text-white">I am a Computer Science graduate</h2>
-                    <button class="bg-gray-400 w-[105px] py-[6px] px-[6px] rounded-[7px] text-gray-100 inset-shadow-sm inset-shadow-white/75 hover:cursor-pointer hover:shadow-lg 
+            <div class="banner__wrapper flex justify-center items-center">
+                <div class="banner__contents flex flex-col gap-[20px] py-12 px-19 rounded-4xl w-[600px]">
+                    <h2 class="text-[17px] text-[#FDFDFD]">Hi, I'm <span class="font-bold">Kenaniah Daniel</span></h2>
+                    <p class="text-3xl font-bold text-[#A8A8A8]">I design and develop software your users will love</p>
+                    <h2 class="text-[17px] text-[#FDFDFD]">I am a Computer Science graduate</h2>
+                    <button class="bg-[#A8A8A8] w-[105px] py-[6px] px-[6px] rounded-[7px] text-gray-100 text-[17px] inset-shadow-sm inset-shadow-white/75 hover:cursor-pointer hover:shadow-lg 
                                     hover:shadow-black/25 hover:text-white transition duration-400">
                         <span class="font-semibold">See More</span>
                     </button>
+                </div>
+                <div class="banner__image">
+                    <img src="../images/Grad_Pic.png" alt="Kenaniah Daniel">
                 </div>
             </div>
         </div>
@@ -46,34 +50,31 @@
     <section class="projects flex w-full justify-center">
         <div class="container px-[14px] py-[35px]">
             <div class="projects__wrapper flex justify-center">
-                <div class="projects__contents flex flex-col items-center gap-[80px] text-gray-400">
+                <div class="projects__contents flex flex-col items-center gap-[80px] text-[#FDFDFD]">
                     <h2 class="text-[28px]">PROJECTS</h2>
-                    <div class="projects__cards text-gray-400 flex flex-col gap-[70px]">
-                        <div class="project1__card flex">
+                    <div class="projects__cards flex flex-col gap-[70px]">
+                        <div class="project1__card flex justify-center">
                             <div class="project1__description flex flex-col justify-center items-center w-[400px] p-[30px] mx-[10px] gap-[30px]">
-                                <h3 class="">Project Title</h3>
-                                <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem nihil minima tempora nostrum vero? Fuga officia molestias blanditiis omnis laudantium 
-                                    suscipit enim! Provident, tempore officiis nemo tempora magnam fuga mollitia eligendi corrupti enim, praesentium facere!</p>
+                                <h3 class="text-[20px] font-semibold">VS Code Clone Website</h3>
+                                <p class="text-[14px] text-center">Pixel perfect and responsive VS Code clone website created using HTML and Tailwind CSS.</p>
                             </div>
-                            <img src="" alt="Project 1">
+                            <a href="https://kensumang.github.io/vscode/dist/"><img src="../images/VS Mockup.JPG" alt="VS Code Clone Website" class="w-[550px]"></a>
                         </div>
-
-                        <div class="project2__card flex">
-                            <img src="" alt="Project 2">
+                        
+                        <div class="project2__card flex justify-center">
+                            <a href="https://kensumang.github.io/spotify-tailwind/dist/"><img src="../images/Spotify.png" alt="Spotify Clone Website" class="w-[550px]"></a>
                             <div class="project2__description flex flex-col justify-center items-center w-[400px] p-[30px] mx-[10px] gap-[30px]">
-                                <h3 class="">Project Title</h3>
-                                <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem nihil minima tempora nostrum vero? Fuga officia molestias blanditiis omnis laudantium 
-                                    suscipit enim! Provident, tempore officiis nemo tempora magnam fuga mollitia eligendi corrupti enim, praesentium facere!</p>
+                                <h3 class="text-[20px] font-semibold">Spotify Clone Website</h3>
+                                <p class="text-[14px] text-center">Pixel perfect and responsive Spotify clone website created using HTML and SASS.</p>
                             </div>
                         </div>
                         
-                        <div class="project3__card flex">
+                        <div class="project3__card flex justify-center">
                             <div class="project3__description flex flex-col justify-center items-center w-[400px] p-[30px] mx-[10px] gap-[30px]">
-                                <h3 class="">Project Title</h3>
-                                <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem nihil minima tempora nostrum vero? Fuga officia molestias blanditiis omnis laudantium 
-                                    suscipit enim! Provident, tempore officiis nemo tempora magnam fuga mollitia eligendi corrupti enim, praesentium facere!</p>
+                                <h3 class="text-[20px] font-semibold">Automated Sprinkler</h3>
+                                <p class="text-[14px] text-center">Arduino-based automated sprinkler device with scheduled pesticide spray function.</p>
                             </div>
-                            <img src="" alt="Project 3">
+                            <a href="#"><img class="h-[350px]" src="../images/Automated_Sprinkler.png" alt="VS Code Clone Website"></a>
                         </div>
                     </div>
                 </div>
