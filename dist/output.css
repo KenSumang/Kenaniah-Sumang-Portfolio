@@ -414,6 +414,10 @@
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
+  .text-\[14px\]\/\[22px\] {
+    font-size: 14px;
+    line-height: 22px;
+  }
   .text-\[16px\]\/\[32px\] {
     font-size: 16px;
     line-height: 32px;
