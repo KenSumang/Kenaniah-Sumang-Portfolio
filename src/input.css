@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+/* @theme {
+    --color-primary: #EFEFEF;
+    --color-secondary: #000000;
+    --color-accent: #A9A9A9;
+} */
+
+@theme {
+    --color-primary: #EFEFEF;
+    --color-secondary: #000000;
+    --color-accent: #A9A9A9;
+    --color-accent-highlight: #D9D9D9;
+    --color-accent-light: #CAC9CA;
+    --color-accent-dark: #7E7E7E;
+    --color-card-bg: #E3E3E3;
+    --color-card-bg-dark: #1A1A1A;
+    --color-card-bg-light: #3C3C3C;
+    --color-text-grey: #4B5563;
+
+    --font-Montserrat: 'Montserrat', sans-serif;
+}

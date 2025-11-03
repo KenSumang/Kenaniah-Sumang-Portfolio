@@ -3,57 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Turn your ideas into reality, build solutions that matter, and create software your users will love with Daniel Digital Solutions.">
+    <meta name="description" content="Turn your ideas into reality, build solutions that matter, and create software your users will love with kenaniahdaniel Digital Solutions.">
     <link href="output.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="../images//D-icon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="../images//D-icon.svg" />
-    <link rel="shortcut icon" href="../images//D-icon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../images//apple-touch-icon.png" />
-    <link rel="manifest" href="../images//site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png" />
+    <link rel="manifest" href="../images/site.webmanifest" />
     <title>Portfolio</title>
 </head>
-<body class="bg-[#0B0B0B]">
-    <header class="header flex w-full justify-center">
-        <div class="container px-[2px]">
-            <div class="header__wrapper h-[60px] flex text-gray-800 justify-between items-center">
-                <div class="header__logo hover:cursor-pointer h-full">
-                    <a href="#" class="flex h-full items-center gap-[2px]">
-                        <img src="../images/D.png" alt="logo" class="h-[35px]">
-                        <p class="text-[16px] text-[#a8a8a8]">ANIEL</p>
+<body class="bg-secondary font-Montserrat">
+    <header class="header flex justify-center md:mx-[64px] lg:mx-[87px]">
+        <div class="container max-w-full lg:px-[14px]">
+            <div class="header__wrapper h-[52px] flex justify-between items-center md:h-[58px] lg:h-[66px]">
+                <div class="header__logo hover:cursor-pointer">
+                    <a href="#" class="flex h-full items-center mx-[16px]">
+                        <img src="../images/kd_logo.png" alt="logo" class="w-[130px] md:w-[156px] lg:w-[176px]">
+                        <!-- <p class="text-[22px] text-primary"><span class="font-medium">kenaniah</span><span class="font-extralight">daniel</span></p> -->
                     </a>
                 </div>
 
-                <nav class="header__nav text-white">
-                    <ul class="flex flex-row gap-[50px]">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Contact</a></li>
+                <nav class="header__nav text-primary">
+                    <div class="burger-button flex flex-col gap-[4px] m-[16px] justify-center items-center lg:hidden hover:cursor-pointer">
+                        <div class="button w-[24px] h-[2px] rounded-full bg-primary"></div>
+                        <div class="button w-[24px] h-[2px] rounded-full bg-primary"></div>
+                        <div class="button w-[24px] h-[2px] rounded-full bg-primary"></div>
+                    </div>
+
+                    <ul class="hidden flex-row gap-[46px] lg:flex">
+                        <li><a href="#" class="text-[13px] font-regular">ABOUT</a></li>
+                        <li><a href="#" class="text-[13px] font-regular">PROJECTS</a></li>
+                        <li><a href="#" class="text-[13px] font-regular">EXPERIENCE</a></li>
+                        <li><a href="#" class="text-[13px] font-regular">CONTACT</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
-    <section class="banner flex w-full h-[550px] justify-center items-center">
-        <div class="container px-[14px] py-[35px]">
-            <div class="banner__wrapper flex justify-center items-center">
-                <div class="banner__contents flex flex-col gap-[20px] py-12 px-19 rounded-4xl w-[600px]">
-                    <h2 class="text-[17px] text-[#FDFDFD]">Hi, I'm <span class="font-bold">Kenaniah Daniel</span></h2>
-                    <p class="text-3xl font-bold text-[#A8A8A8]">I design and develop software your users will love</p>
-                    <h2 class="text-[17px] text-[#FDFDFD]">I am a Computer Science graduate</h2>
-                    <button class="bg-[#A8A8A8] w-[105px] py-[6px] px-[6px] rounded-[7px] text-gray-100 text-[17px] inset-shadow-sm inset-shadow-white/75 hover:cursor-pointer hover:shadow-lg 
-                                    hover:shadow-black/25 hover:text-white transition duration-400">
-                        <span class="font-semibold">See More</span>
-                    </button>
+    <!-- <section class="banner flex mx-[103px] my-[100px] h-[670px] py-[0px] justify-center items-center">
+        <div class="container max-w-full px-[160px]">
+            <div class="banner__wrapper flex justify-left items-center font-light text-primary w-[850px]">
+                <div class="banner__contents flex flex-col gap-[24px] py-[0px]">
+                    <div class="banner__contents flex flex-col gap-[7px]">
+                        <h2 class="text-[24px]">Hi, I'm <span class="font-medium">Kenaniah</span> <span class="font-normal">Daniel</span></h2>
+                        <p class="text-[64px]/[72px]">Software Developer<br/>Based in Philippines</p>
+                    </div>
+                    <h2 class="text-[24px]/[32px] text-accent font-normal">I craft smooth, engaging digital experiences by blending clean code, smart design, and a passion for innovation.</h2>
                 </div>
-                <div class="banner__image">
-                    <img src="../images/Grad_Pic.png" alt="Kenaniah Daniel">
+            </div>
+        </div>
+    </section> -->
+
+    <section class="banner flex mx-[16px] my-[16px] h-[670px] py-[0px] justify-center items-center">
+        <div class="container max-w-full">
+            <div class="banner__wrapper flex justify-left items-center font-light text-primary">
+                <div class="banner__contents flex flex-col m-[22px] gap-[12px] lg:gap-[24px] py-[0px]">
+                    <div class="banner__contents flex flex-col lg:gap-[7px]">
+                        <h2 class="text-[18px] lg:text-[24px]">Hi, I'm <span class="font-medium">Kenaniah</span> <span class="font-normal">Daniel</span></h2>
+                        <p class="text-[42px]/[54px] lg:text-[64px]/[72px]">Software Developer<br/>Based in Philippines</p>
+                    </div>
+                    <h2 class="text-[18px]/[26px] lg:text-[24px]/[32px] text-accent font-normal">I craft smooth, engaging digital experiences by blending clean code, smart design, and a passion for innovation.</h2>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="projects flex w-full justify-center">
+    <!-- <section class="projects flex mx-[103px] my-[75px] h-[670px] py-[80px] justify-center items-center">
+        <div class="container max-w-full px-[70px] py-[30px]">
+            <div class="projects__wrapper flex justify-center">
+                <div class="projects__contents flex items-center gap-[162px] text-[#FDFDFD]">
+                    <img src="../images/KDaniel Picture.png" alt="Kenaniah Daniel">
+                    <div class="aboutme__description flex flex-col gap-[20px] max-w-[687px]">
+                        <h2 class="text-[40px] text-primary font-light">About Me</h2>
+                        <p class="text-accent font-normal text-[16px]/[32px]">I’m Kenaniah Daniel Sumang, a passionate Software Developer skilled in Python, Java, 
+                            and full-stack web development. I enjoy creating functional, efficient, and visually 
+                            engaging digital solutions that deliver great user experiences. Through various web and 
+                            software projects, I’ve honed my skills in responsive design, clean coding, and 
+                            problem-solving. My experience with HTML, CSS, JavaScript, Tailwind CSS, and SASS has 
+                            strengthened my attention to detail and commitment to writing maintainable code. I’m 
+                            continuously expanding my expertise in mobile and game development, driven by a love 
+                            for innovation and continuous learning.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="projects flex w-full justify-center">
         <div class="container px-[14px] py-[35px]">
             <div class="projects__wrapper flex justify-center">
                 <div class="projects__contents flex flex-col items-center gap-[80px] text-[#FDFDFD]">
@@ -86,7 +126,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- <h1>Kenaniah Sumang Portfolio na Malupet</h1>
