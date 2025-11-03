@@ -7,7 +7,6 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-200: oklch(88.5% 0.062 18.334);
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-600: oklch(44.6% 0.03 256.802);
@@ -19,7 +18,6 @@
     --text-3xl--line-height: calc(2.25 / 1.875);
     --text-8xl: 6rem;
     --text-8xl--line-height: 1;
-    --font-weight-extralight: 200;
     --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
@@ -216,29 +214,14 @@
   .mx-\[16px\] {
     margin-inline: 16px;
   }
-  .mx-\[103px\] {
-    margin-inline: 103px;
-  }
   .mx-auto {
     margin-inline: auto;
-  }
-  .my-\[75px\] {
-    margin-block: 75px;
-  }
-  .my-auto {
-    margin-block: auto;
-  }
-  .mr-auto {
-    margin-right: auto;
   }
   .mb-\[24px\] {
     margin-bottom: 24px;
   }
-  .mb-\[48px\] {
-    margin-bottom: 48px;
-  }
-  .ml-auto {
-    margin-left: auto;
+  .box-border {
+    box-sizing: border-box;
   }
   .flex {
     display: flex;
@@ -263,6 +246,9 @@
   }
   .h-\[60px\] {
     height: 60px;
+  }
+  .h-\[66px\] {
+    height: 66px;
   }
   .h-\[550px\] {
     height: 550px;
@@ -303,9 +289,6 @@
   .max-w-\[500px\] {
     max-width: 500px;
   }
-  .max-w-\[687px\] {
-    max-width: 687px;
-  }
   .max-w-\[912px\] {
     max-width: 912px;
   }
@@ -323,9 +306,6 @@
   }
   .flex-row {
     flex-direction: row;
-  }
-  .place-items-center-safe {
-    place-items: safe center;
   }
   .items-center {
     align-items: center;
@@ -374,9 +354,6 @@
   }
   .gap-\[80px\] {
     gap: 80px;
-  }
-  .gap-\[162px\] {
-    gap: 162px;
   }
   .rounded-4xl {
     border-radius: var(--radius-4xl);
@@ -428,9 +405,6 @@
   .px-\[14px\] {
     padding-inline: 14px;
   }
-  .px-\[70px\] {
-    padding-inline: 70px;
-  }
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
   }
@@ -443,20 +417,11 @@
   .py-\[24px\] {
     padding-block: 24px;
   }
-  .py-\[30px\] {
-    padding-block: 30px;
-  }
   .py-\[35px\] {
     padding-block: 35px;
   }
-  .py-\[80px\] {
-    padding-block: 80px;
-  }
   .text-center {
     text-align: center;
-  }
-  .align-middle {
-    vertical-align: middle;
   }
   .font-Montserrat {
     font-family: var(--font-Montserrat);
@@ -473,10 +438,6 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .text-\[16px\]\/\[32px\] {
-    font-size: 16px;
-    line-height: 32px;
-  }
   .text-\[30px\]\/\[38px\] {
     font-size: 30px;
     line-height: 38px;
@@ -490,22 +451,12 @@
   .text-\[17px\] {
     font-size: 17px;
   }
-  .text-\[22px\] {
-    font-size: 22px;
-  }
   .text-\[28px\] {
     font-size: 28px;
-  }
-  .text-\[40px\] {
-    font-size: 40px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
-  }
-  .font-extralight {
-    --tw-font-weight: var(--font-weight-extralight);
-    font-weight: var(--font-weight-extralight);
   }
   .font-light {
     --tw-font-weight: var(--font-weight-light);
@@ -603,10 +554,6 @@
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
-  .duration-150 {
-    --tw-duration: 150ms;
-    transition-duration: 150ms;
-  }
   .duration-250 {
     --tw-duration: 250ms;
     transition-duration: 250ms;
@@ -630,40 +577,6 @@
       }
     }
   }
-  .hover\:border-white {
-    &:hover {
-      @media (hover: hover) {
-        border-color: var(--color-white);
-      }
-    }
-  }
-  .hover\:border-white\/20 {
-    &:hover {
-      @media (hover: hover) {
-        border-color: color-mix(in srgb, #fff 20%, transparent);
-        @supports (color: color-mix(in lab, red, red)) {
-          border-color: color-mix(in oklab, var(--color-white) 20%, transparent);
-        }
-      }
-    }
-  }
-  .hover\:bg-white {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-white);
-      }
-    }
-  }
-  .hover\:bg-white\/15 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: color-mix(in srgb, #fff 15%, transparent);
-        @supports (color: color-mix(in lab, red, red)) {
-          background-color: color-mix(in oklab, var(--color-white) 15%, transparent);
-        }
-      }
-    }
-  }
   .hover\:bg-white\/20 {
     &:hover {
       @media (hover: hover) {
@@ -678,13 +591,6 @@
     &:hover {
       @media (hover: hover) {
         color: var(--color-white);
-      }
-    }
-  }
-  .hover\:opacity-15 {
-    &:hover {
-      @media (hover: hover) {
-        opacity: 15%;
       }
     }
   }
@@ -706,24 +612,9 @@
       }
     }
   }
-  .md\:m-\[80px\] {
-    @media (width >= 48rem) {
-      margin: 80px;
-    }
-  }
   .md\:m-\[120px\] {
     @media (width >= 48rem) {
       margin: 120px;
-    }
-  }
-  .md\:m-auto {
-    @media (width >= 48rem) {
-      margin: auto;
-    }
-  }
-  .md\:mr-auto {
-    @media (width >= 48rem) {
-      margin-right: auto;
     }
   }
   .md\:mb-\[32px\] {
@@ -839,11 +730,6 @@
       width: 412px;
     }
   }
-  .lg\:w-full {
-    @media (width >= 64rem) {
-      width: 100%;
-    }
-  }
   .lg\:gap-\[7px\] {
     @media (width >= 64rem) {
       gap: 7px;
@@ -862,11 +748,6 @@
   .lg\:gap-\[94px\] {
     @media (width >= 64rem) {
       gap: 94px;
-    }
-  }
-  .lg\:gap-\[162px\] {
-    @media (width >= 64rem) {
-      gap: 162px;
     }
   }
   .lg\:p-\[120px\] {
@@ -901,19 +782,9 @@
       margin: 142px;
     }
   }
-  .xl\:m-\[160px\] {
-    @media (width >= 80rem) {
-      margin: 160px;
-    }
-  }
   .xl\:w-\[464px\] {
     @media (width >= 80rem) {
       width: 464px;
-    }
-  }
-  .xl\:flex-row {
-    @media (width >= 80rem) {
-      flex-direction: row;
     }
   }
   .xl\:gap-\[12px\] {
@@ -924,11 +795,6 @@
   .\33 xl\:mx-0 {
     @media (width >= 112rem) {
       margin-inline: calc(var(--spacing) * 0);
-    }
-  }
-  .\33 xl\:mr-auto {
-    @media (width >= 112rem) {
-      margin-right: auto;
     }
   }
   .\33 xl\:h-\[800px\] {
@@ -949,11 +815,6 @@
   .\33 xl\:gap-\[162px\] {
     @media (width >= 112rem) {
       gap: 162px;
-    }
-  }
-  .\33 xl\:align-baseline {
-    @media (width >= 112rem) {
-      vertical-align: baseline;
     }
   }
 }
