@@ -280,6 +280,18 @@
   .w-full {
     width: 100%;
   }
+  .max-w-\[240px\] {
+    max-width: 240px;
+  }
+  .max-w-\[340px\] {
+    max-width: 340px;
+  }
+  .max-w-\[400px\] {
+    max-width: 400px;
+  }
+  .max-w-\[500px\] {
+    max-width: 500px;
+  }
   .max-w-\[687px\] {
     max-width: 687px;
   }
@@ -309,6 +321,9 @@
   }
   .gap-\[2px\] {
     gap: 2px;
+  }
+  .gap-\[3px\] {
+    gap: 3px;
   }
   .gap-\[4px\] {
     gap: 4px;
@@ -437,6 +452,10 @@
     font-size: 18px;
     line-height: 26px;
   }
+  .text-\[20px\]\/\[24px\] {
+    font-size: 20px;
+    line-height: 24px;
+  }
   .text-\[22px\]\/\[40px\] {
     font-size: 22px;
     line-height: 40px;
@@ -457,6 +476,10 @@
     font-size: 26px;
     line-height: 40px;
   }
+  .text-\[28px\]\/\[34px\] {
+    font-size: 28px;
+    line-height: 34px;
+  }
   .text-\[28px\]\/\[40px\] {
     font-size: 28px;
     line-height: 40px;
@@ -468,6 +491,10 @@
   .text-\[32px\]\/\[54px\] {
     font-size: 32px;
     line-height: 54px;
+  }
+  .text-\[34px\]\/\[34px\] {
+    font-size: 34px;
+    line-height: 34px;
   }
   .text-\[42px\]\/\[54px\] {
     font-size: 42px;
@@ -657,6 +684,55 @@
   .md\:w-\[156px\] {
     @media (width >= 48rem) {
       width: 156px;
+    }
+  }
+  .md\:max-w-\[680px\] {
+    @media (width >= 48rem) {
+      max-width: 680px;
+    }
+  }
+  .md\:gap-\[5\] {
+    @media (width >= 48rem) {
+      gap: 5;
+    }
+  }
+  .md\:gap-\[12px\] {
+    @media (width >= 48rem) {
+      gap: 12px;
+    }
+  }
+  .md\:gap-\[14px\] {
+    @media (width >= 48rem) {
+      gap: 14px;
+    }
+  }
+  .md\:text-\[20px\]\/\[28px\] {
+    @media (width >= 48rem) {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  .md\:text-\[36px\]\/\[52px\] {
+    @media (width >= 48rem) {
+      font-size: 36px;
+      line-height: 52px;
+    }
+  }
+  .md\:text-\[38px\]\/\[48px\] {
+    @media (width >= 48rem) {
+      font-size: 38px;
+      line-height: 48px;
+    }
+  }
+  .md\:text-\[38px\]\/\[52px\] {
+    @media (width >= 48rem) {
+      font-size: 38px;
+      line-height: 52px;
+    }
+  }
+  .md\:text-\[20px\] {
+    @media (width >= 48rem) {
+      font-size: 20px;
     }
   }
   .lg\:mx-\[87px\] {
