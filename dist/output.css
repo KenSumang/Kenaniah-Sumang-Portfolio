@@ -762,6 +762,9 @@
     font-size: 30px;
     line-height: 38px;
   }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
   .text-\[13px\] {
     font-size: 13px;
   }
@@ -805,6 +808,9 @@
   }
   .text-\[\#a8a8a8\] {
     color: #a8a8a8;
+  }
+  .text-\[16\] {
+    color: 16;
   }
   .text-accent {
     color: var(--color-accent);
@@ -1306,6 +1312,16 @@
     @media (width >= 64rem) {
       font-size: 64px;
       line-height: 72px;
+    }
+  }
+  .lg\:text-\[14px\] {
+    @media (width >= 64rem) {
+      font-size: 14px;
+    }
+  }
+  .lg\:text-\[18px\] {
+    @media (width >= 64rem) {
+      font-size: 18px;
     }
   }
   .lg\:text-\[24px\] {
