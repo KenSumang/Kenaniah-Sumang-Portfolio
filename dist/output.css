@@ -1083,6 +1083,11 @@
       flex-direction: row;
     }
   }
+  .\33 xl\:justify-between {
+    @media (width >= 112rem) {
+      justify-content: space-between;
+    }
+  }
   .\33 xl\:gap-\[71px\] {
     @media (width >= 112rem) {
       gap: 71px;
