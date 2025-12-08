@@ -16,193 +16,197 @@
     <title>Kenaniah Daniel</title>
 </head>
 
-<body class="bg-secondary font-Montserrat box-border">
-    <header class="header flex justify-center lg:mx-[87px]">
-        <div class="container max-w-full lg:px-[14px]">
-            <div class="header__wrapper h-[52px] flex justify-between items-center md:h-[58px] lg:h-[66px]">
-                <div class="header__logo hover:cursor-pointer">
-                    <a href="#" class="flex h-full items-center mx-[16px]">
-                        <img src="../images/kd_logo.png" alt="logo" class="w-[130px] md:w-[156px] lg:w-[176px]">
-                    </a>
-                </div>
+<body class="bg-no-repeat bg-cover bg-fixed font-Montserrat box-border overflow-hidden" style="background-image: url('../images/bg_texture.png')">
+    <div class="wrapper relative h-screen overflow-y-auto overflow-x-hidden perspective-[100px] scroll-smooth transform-3d">
+        <img src="../images/banner_image_2.png" alt="Banner Background" class="absolute h-full w-full -z-20 object-contain object-center translate-z-[-100px] scale-200">
 
-                <nav class="header__nav text-primary">
-                    <div class="burger-button flex flex-col gap-[4px] m-[16px] justify-center items-center lg:hidden hover:cursor-pointer">
-                        <div class="button w-[24px] h-[2px] rounded-full bg-primary"></div>
-                        <div class="button w-[24px] h-[2px] rounded-full bg-primary"></div>
-                        <div class="button w-[24px] h-[2px] rounded-full bg-primary"></div>
-                    </div>
-
-                    <ul class="hidden flex-row gap-[46px] lg:flex mx-[16px]">
-                        <li><a href="#aboutMe" class="text-[13px] font-regular">ABOUT</a></li>
-                        <li><a href="#projects" class="text-[13px] font-regular">PROJECTS</a></li>
-                        <li><a href="#" class="text-[13px] font-regular">EXPERIENCE</a></li>
-                        <li><a href="#cta" class="text-[13px] font-regular">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-
-    <section class="banner flex items-center h-[670px] lg:h-[816px] p-[16px] lg:p-[60px] 3xl:p-[120px]">
-        <div class="container max-w-full m-[22px] md:m-[66px] lg:m-[64px] 3xl:mx-[124px] ">
-            <div class="banner__wrapper flex justify-left items-center font-light text-primary">
-                <div class="banner__contents flex flex-col max-w-[500px] md:max-w-[648px] lg:max-w-[912px] 3xl:max-w-[648px] 3xl:mx-0 lg:mx-auto gap-[6px] md:gap-[12px] lg:gap-[24px] py-[0px]">
-                    <div class="banner__contents flex flex-col gap-[3px] lg:gap-[7px]">
-                        <h2 class="text-[16px] md:text-[20px] lg:text-[24px]">Hi, I'm <span class="font-medium">Kenaniah</span> <span class="font-normal">Daniel</span></h2>
-                        <p class="text-[30px]/[38px] md:text-[38px]/[48px] lg:text-[64px]/[72px]">Software Developer<br/>Based in Philippines</p>
-                    </div>
-                    <h2 class="text-[16px]/[24px] md:text-[20px]/[28px] lg:text-[24px]/[32px] text-accent font-normal">I craft smooth, engaging digital experiences by blending clean code, smart design, and a passion for innovation.</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="aboutme flex items-center p-[16px] lg:p-[60px] 3xl:p-[120px]" id="aboutMe">
-        <div class="container max-w-full m-[22px] md:m-[66px] lg:m-[64px] 3xl:mx-[124px] 3xl:my-0">
-            <div class="aboutme__wrapper flex justify-center">
-                <div class="aboutme__contents flex flex-col items-center gap-[32px] md:gap-[64px] lg:gap-[94px] 3xl:gap-[162px] 3xl:flex-row text-[#FDFDFD]">
-                    <img src="../images/KDaniel Picture.png" alt="Kenaniah Daniel" class="w-[324px] md:w-[364px] lg:w-[412px] xl:w-[464px] 3xl:w-[546px]">
-                    <div class="aboutme__description flex flex-col items-start gap-[14px] lg:gap-[20px] xl:gap-[12px] max-w-[912px] 3xl:w-full">
-                        <h2 class="text-[28px] text-primary font-light md:text-[40px]">About Me</h2>
-                        <p class="text-[14px]/[24px] text-accent font-normal md:text-[16px]/[32px] mb-[24px] md:mb-[32px] lg:mb-[48px]">
-                            I'm Kenaniah Daniel Sumang, a passionate Software Developer skilled in Python, Java, 
-                            and full-stack web development. I enjoy creating functional, efficient, and visually 
-                            engaging digital solutions that deliver great user experiences. Through various web and 
-                            software projects, I've honed my skills in responsive design, clean coding, and 
-                            problem-solving. My experience with HTML, CSS, JavaScript, Tailwind CSS, and SASS has 
-                            strengthened my attention to detail and commitment to writing maintainable code. I'm 
-                            continuously expanding my expertise in mobile and game development, driven by a love 
-                            for innovation and continuous learning.</p>
-                        <button class="text-[16px] w-[263px] h-[45px] border-[1px] border-accent-highlight text-accent-highlight 
-                        rounded-[3px] hover:cursor-pointer hover:text-white hover:bg-white/20 hover:border-none transition duration-250
-                        mx-auto 3xl:mx-0">Learn More</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="projects flex items-center p-[16px] lg:p-[60px] 3xl:p-[120px]" id="projects">
-        <div class="container max-w-full m-[22px] md:m-[66px] lg:m-[64px] 3xl:mx-[124px] 3xl:my-0">
-            <div class="projects__wrapper flex justify-center">
-                <div class="projects__contents flex flex-col w-full items-center gap-[14px] lg:gap-[20px] xl:gap-[12px] text-[#FDFDFD]">
-                    <div class="projects__description flex flex-col gap-[14px] lg:gap-[20px] xl:gap-[12px] max-w-[912px] 3xl:w-full">
-                        <h2 class="text-[28px] text-primary font-light md:text-[40px] lg:mx-auto">Projects</h2>
-                        <p class="text-[14px]/[24px] text-accent font-normal md:text-[16px]/[32px] mb-[24px] md:mb-[32px] lg:mb-[48px] lg:mx-auto">
-                            Explore some of my recent projects that reflect my passion for creating impactful digital solutions.</p>
-                    </div>
-
-                    <div class="project__cards flex flex-wrap w-full gap-[30px] justify-center 2xl:flex-nowrap mx-auto mb-[24px] md:mb-[32px] lg:mb-[48px] 3xl:justify-between">
-                        <a href="https://kensumang.github.io/vscode/dist/">
-                            <div class="project__1 relative bg-card-bg-dark flex flex-col w-[263px] md:w-[298px] lg:w-[318px] 3xl:w-[446px] h-[354px] md:h-[384px] lg:h-[424px] 3xl:h-[579px] hover:scale-105 transition duration-250">
-                                <div class="project1__image absolute w-full h-full p-[16px] lg:p-[24px] 3xl:p-[30px] ">
-                                    <img src="../images/VS Code Card Web.png" alt="" class="shadow-white top-1/6 mt-[40px] md:mt-[48px] 3xl:mt-[92px] w-full">
-                                    <img src="../images/VS Code Card Mob.png" alt="" class="absolute z-1 w-[82px] md:w-[92px] lg:w-[100x] 3xl:w-[110px] shadow-white left-6/11 top-1/3 -translate-y-2/7 3xl:top-4/9">
-                                </div>
-                                <div class="project1__description flex flex-col justify-between absolute w-full bg-card-bg-light p-[16px] lg:p-[24px] 3xl:p-[30px] 3xl:h-[145px] bottom-0 left-0">
-                                    <h3 class="text-[16] lg:text-[18px]">Vs Code Clone</h3>
-                                    <p class="project__description text-accent-highlight text-[12px] lg:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, itaque minima aliquid.</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://kensumang.github.io/spotify-tailwind/dist/">
-                            <div class="project__2 relative bg-card-bg-dark flex flex-col w-[263px] md:w-[298px] lg:w-[318px] 3xl:w-[446px] h-[354px] md:h-[384px] lg:h-[424px] 3xl:h-[579px] hover:scale-105 transition duration-250">
-                                <div class="project2__image absolute w-full h-full p-[16px] lg:p-[24px] 3xl:p-[30px] ">
-                                    <img src="../images/Spotify Card.png" alt="" class="shadow-white top-1/6 mt-[40px] md:mt-[48px] 3xl:mt-[92px] w-full">
-                                </div>
-                                <div class="project2__description flex flex-col justify-between absolute w-full bg-card-bg-light p-[16px] lg:p-[24px] 3xl:p-[30px] 3xl:h-[145px] bottom-0 left-0">
-                                    <h3 class="text-[16] lg:text-[18px]">Spotify Clone</h3>
-                                    <p class="project__description text-accent-highlight text-[12px] lg:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, itaque minima aliquid.</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://kensumang.github.io/vscode/dist/">
-                            <div class="project__1 relative bg-card-bg-dark flex flex-col w-[263px] md:w-[298px] lg:w-[318px] 3xl:w-[446px] h-[354px] md:h-[384px] lg:h-[424px] 3xl:h-[579px] hover:scale-105 transition duration-250">
-                                <div class="project1__image absolute w-full h-full p-[16px] lg:p-[24px] 3xl:p-[30px] ">
-                                    <img src="../images/VS Code Card Web.png" alt="" class="shadow-white top-1/6 mt-[40px] md:mt-[48px] 3xl:mt-[92px] w-full">
-                                    <img src="../images/VS Code Card Mob.png" alt="" class="absolute z-1 w-[82px] md:w-[92px] lg:w-[100x] 3xl:w-[110px] shadow-white left-6/11 top-1/3 -translate-y-2/7 3xl:top-4/9">
-                                </div>
-                                <div class="project1__description flex flex-col justify-between absolute w-full bg-card-bg-light p-[16px] lg:p-[24px] 3xl:p-[30px] 3xl:h-[145px] bottom-0 left-0">
-                                    <h3 class="text-[16] lg:text-[18px]">Vs Code Clone</h3>
-                                    <p class="project__description text-accent-highlight text-[12px] lg:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, itaque minima aliquid.</p>
-                                </div>
-                            </div>
+        <header class="header flex justify-center lg:mx-[87px]">
+            <div class="container max-w-full lg:px-[14px]">
+                <div class="header__wrapper h-[52px] flex justify-between items-center md:h-[58px] lg:h-[66px]">
+                    <div class="header__logo hover:cursor-pointer">
+                        <a href="#" class="flex h-full items-center mx-[16px]">
+                            <img src="../images/kd_logo.png" alt="logo" class="w-[130px] md:w-[156px] lg:w-[176px]">
                         </a>
                     </div>
-                    
-                    <button class="text-[16px] w-[263px] h-[45px] border-[1px] border-accent-highlight text-accent-highlight 
-                        rounded-[3px] hover:cursor-pointer hover:text-white hover:bg-white/20 hover:border-none transition duration-250
-                        mx-auto 3xl:mr-0">See All Projects</button>
+
+                    <nav class="header__nav text-primary">
+                        <div class="burger-button flex flex-col gap-[4px] m-[16px] justify-center items-center lg:hidden hover:cursor-pointer">
+                            <div class="button w-[24px] h-[2px] rounded-full bg-primary"></div>
+                            <div class="button w-[24px] h-[2px] rounded-full bg-primary"></div>
+                            <div class="button w-[24px] h-[2px] rounded-full bg-primary"></div>
+                        </div>
+
+                        <ul class="hidden flex-row gap-[46px] lg:flex mx-[16px]">
+                            <li><a href="#aboutMe" class="text-[13px] font-regular">ABOUT</a></li>
+                            <li><a href="#projects" class="text-[13px] font-regular">PROJECTS</a></li>
+                            <li><a href="#" class="text-[13px] font-regular">EXPERIENCE</a></li>
+                            <li><a href="#cta" class="text-[13px] font-regular">CONTACT</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <section class="cta flex items-center p-[16px] lg:p-[60px] 3xl:p-[120px]" id="cta">
-        <div class="container max-w-full mx-[22px] my-[36px] md:m-[66px] lg:m-[64px] 3xl:mx-[124px] 3xl:my-[60px]">
-            <div class="cta flex justify-center">
-                <div class="cta__contents flex flex-col items-center gap-[32px] md:gap-[64px] lg:gap-[94px] 3xl:gap-[162px] 3xl:flex-row text-[#FDFDFD]">
-                    <div class="cta__description flex flex-col items-start gap-[14px] lg:gap-[20px] xl:gap-[12px] max-w-[912px] 3xl:w-full">
-                        <h2 class="text-[28px] text-primary font-light md:text-[40px] mx-auto">Let's turn your ideas into <span class="font-medium">Reality</span></h2>
-                        <p class="text-[14px]/[24px] text-accent font-normal md:text-[16px]/[32px] mb-[24px] md:mb-[32px] lg:mb-[48px] text-center">
-                            I am the genie of software development. If you need a striking website, or a sleek software that leaves lasting experience, clicking the button is as easy as rubbing the lamp.</p>
-                        <div class="cta__buttons flex flex-col mx-auto gap-[16px] md:gap-[24px] md:flex-row lg:gap-[32px]">
-                            <a href="../files/Kenaniah-Daniel-Sumang-Resume.pdf" download>
-                                <button class="text-[16px] w-[263px] h-[45px] text-accent-highlight bg-white/20
-                                    rounded-[3px] hover:cursor-pointer hover:text-white hover:bg-white/0 hover:border-[1px] transition duration-250
-                                    mx-auto 3xl:mx-0">Download CV</button>
-                            </a>
+        </header>
+
+        <section class="banner flex items-center h-[670px] lg:h-[816px] p-[16px] lg:p-[60px] 3xl:p-[120px]">
+            <div class="container max-w-full m-[22px] md:m-[66px] lg:m-[64px] 3xl:mx-[124px] ">
+                <div class="banner__wrapper flex justify-left items-center font-light text-primary">
+                    <div class="banner__contents flex flex-col max-w-[500px] md:max-w-[648px] lg:max-w-[912px] 3xl:max-w-[648px] 3xl:mx-0 lg:mx-auto gap-[6px] md:gap-[12px] lg:gap-[24px] py-[0px]">
+                        <div class="banner__contents flex flex-col gap-[3px] lg:gap-[7px]">
+                            <h2 class="text-[16px] md:text-[20px] lg:text-[24px]">Hi, I'm <span class="font-medium">Kenaniah</span> <span class="font-normal">Daniel</span></h2>
+                            <p class="text-[30px]/[38px] md:text-[38px]/[48px] lg:text-[64px]/[72px]">Software Developer<br/>Based in Philippines</p>
+                        </div>
+                        <h2 class="text-[16px]/[24px] md:text-[20px]/[28px] lg:text-[24px]/[32px] text-accent font-normal">I craft smooth, engaging digital experiences by blending clean code, smart design, and a passion for innovation.</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutme flex items-center p-[16px] lg:p-[60px] 3xl:p-[120px]" id="aboutMe">
+            <div class="container max-w-full m-[22px] md:m-[66px] lg:m-[64px] 3xl:mx-[124px] 3xl:my-0">
+                <div class="aboutme__wrapper flex justify-center">
+                    <div class="aboutme__contents flex flex-col items-center gap-[32px] md:gap-[64px] lg:gap-[94px] 3xl:gap-[162px] 3xl:flex-row text-[#FDFDFD]">
+                        <img src="../images/KDaniel Picture.png" alt="Kenaniah Daniel" class="w-[324px] md:w-[364px] lg:w-[412px] xl:w-[464px] 3xl:w-[546px]">
+                        <div class="aboutme__description flex flex-col items-start gap-[14px] lg:gap-[20px] xl:gap-[12px] max-w-[912px] 3xl:w-full">
+                            <h2 class="text-[28px] text-primary font-light md:text-[40px]">About Me</h2>
+                            <p class="text-[14px]/[24px] text-accent font-normal md:text-[16px]/[32px] mb-[24px] md:mb-[32px] lg:mb-[48px]">
+                                I'm Kenaniah Daniel Sumang, a passionate Software Developer skilled in Python, Java, 
+                                and full-stack web development. I enjoy creating functional, efficient, and visually 
+                                engaging digital solutions that deliver great user experiences. Through various web and 
+                                software projects, I've honed my skills in responsive design, clean coding, and 
+                                problem-solving. My experience with HTML, CSS, JavaScript, Tailwind CSS, and SASS has 
+                                strengthened my attention to detail and commitment to writing maintainable code. I'm 
+                                continuously expanding my expertise in mobile and game development, driven by a love 
+                                for innovation and continuous learning.</p>
                             <button class="text-[16px] w-[263px] h-[45px] border-[1px] border-accent-highlight text-accent-highlight 
-                                rounded-[3px] hover:cursor-pointer hover:text-white hover:bg-white/20 hover:border-none transition duration-250
-                                mx-auto 3xl:mx-0" href="#" >Hire Me</button>
+                            rounded-[3px] hover:cursor-pointer hover:text-white hover:bg-white/20 hover:border-none transition duration-250
+                            mx-auto 3xl:mx-0">Learn More</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <div class="footer__line bg-primary p-[0.4px] mx-[38px] md:mx-[82px] lg:mx-[120px] 3xl:mx-[240px]"></div>
+        <section class="projects flex items-center p-[16px] lg:p-[60px] 3xl:p-[120px]" id="projects">
+            <div class="container max-w-full m-[22px] md:m-[66px] lg:m-[64px] 3xl:mx-[124px] 3xl:my-0">
+                <div class="projects__wrapper flex justify-center">
+                    <div class="projects__contents flex flex-col w-full items-center gap-[14px] lg:gap-[20px] xl:gap-[12px] text-[#FDFDFD]">
+                        <div class="projects__description flex flex-col gap-[14px] lg:gap-[20px] xl:gap-[12px] max-w-[912px] 3xl:w-full">
+                            <h2 class="text-[28px] text-primary font-light md:text-[40px] lg:mx-auto">Projects</h2>
+                            <p class="text-[14px]/[24px] text-accent font-normal md:text-[16px]/[32px] mb-[24px] md:mb-[32px] lg:mb-[48px] lg:mx-auto">
+                                Explore some of my recent projects that reflect my passion for creating impactful digital solutions.</p>
+                        </div>
 
-    <footer class="footer flex items-center relative p-[16px] lg:px-[60px] lg:py-[24px] 3xl:pt-[64px] 3xl:pb-[48px] 3xl:px-[120px]">
-        <div class="container max-w-full mx-[22px] my-[32px] md:mx-[66px] md:my-[44px] lg:mx-[64px] lg:my-[32px] 3xl:mx-[124px] 3xl:my-0">
-            <div class="footer__wrapper flex justify-center">
-                <div class="footer__contents flex flex-col w-full justify-center text-primary gap-[52px] md:gap-[64px] lg:gap-[94px] 3xl:gap-[71px]">
-                    <div class="footer__logo_nav_contacts_socials relative flex flex-col md:flex-row w-full justify-between gap-[32px] text-[14px] items-center lg:items-start text-primary xl:flex-row lg:h-[155px] 3xl:h-[173.5px]">
-                        <div class="footer__logo_nav flex flex-col justify-between h-full gap-[32px] 2xl:flex-row">
-                            <div class="footer__logo lg:absolute hover:cursor-pointer">
-                                <a href="#">
-                                    <img src="../images/kd_logo.png" alt="logo" class="w-[156px] lg:w-[176px]">
+                        <div class="project__cards flex flex-wrap w-full gap-[30px] justify-center 2xl:flex-nowrap mx-auto mb-[24px] md:mb-[32px] lg:mb-[48px] 3xl:justify-between">
+                            <a href="https://kensumang.github.io/vscode/dist/">
+                                <div class="project__1 relative bg-card-bg-dark flex flex-col w-[263px] md:w-[298px] lg:w-[318px] 3xl:w-[446px] h-[354px] md:h-[384px] lg:h-[424px] 3xl:h-[579px] hover:scale-105 transition duration-250">
+                                    <div class="project1__image absolute w-full h-full p-[16px] lg:p-[24px] 3xl:p-[30px] ">
+                                        <img src="../images/VS Code Card Web.png" alt="" class="shadow-white top-1/6 mt-[40px] md:mt-[48px] 3xl:mt-[92px] w-full">
+                                        <img src="../images/VS Code Card Mob.png" alt="" class="absolute z-1 w-[82px] md:w-[92px] lg:w-[100x] 3xl:w-[110px] shadow-white left-6/11 top-1/3 -translate-y-2/7 3xl:top-4/9">
+                                    </div>
+                                    <div class="project1__description flex flex-col justify-between absolute w-full bg-card-bg-light p-[16px] lg:p-[24px] 3xl:p-[30px] 3xl:h-[145px] bottom-0 left-0">
+                                        <h3 class="text-[16] lg:text-[18px]">Vs Code Clone</h3>
+                                        <p class="project__description text-accent-highlight text-[12px] lg:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, itaque minima aliquid.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://kensumang.github.io/spotify-tailwind/dist/">
+                                <div class="project__2 relative bg-card-bg-dark flex flex-col w-[263px] md:w-[298px] lg:w-[318px] 3xl:w-[446px] h-[354px] md:h-[384px] lg:h-[424px] 3xl:h-[579px] hover:scale-105 transition duration-250">
+                                    <div class="project2__image absolute w-full h-full p-[16px] lg:p-[24px] 3xl:p-[30px] ">
+                                        <img src="../images/Spotify Card.png" alt="" class="shadow-white top-1/6 mt-[40px] md:mt-[48px] 3xl:mt-[92px] w-full">
+                                    </div>
+                                    <div class="project2__description flex flex-col justify-between absolute w-full bg-card-bg-light p-[16px] lg:p-[24px] 3xl:p-[30px] 3xl:h-[145px] bottom-0 left-0">
+                                        <h3 class="text-[16] lg:text-[18px]">Spotify Clone</h3>
+                                        <p class="project__description text-accent-highlight text-[12px] lg:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, itaque minima aliquid.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://kensumang.github.io/vscode/dist/">
+                                <div class="project__1 relative bg-card-bg-dark flex flex-col w-[263px] md:w-[298px] lg:w-[318px] 3xl:w-[446px] h-[354px] md:h-[384px] lg:h-[424px] 3xl:h-[579px] hover:scale-105 transition duration-250">
+                                    <div class="project1__image absolute w-full h-full p-[16px] lg:p-[24px] 3xl:p-[30px] ">
+                                        <img src="../images/VS Code Card Web.png" alt="" class="shadow-white top-1/6 mt-[40px] md:mt-[48px] 3xl:mt-[92px] w-full">
+                                        <img src="../images/VS Code Card Mob.png" alt="" class="absolute z-1 w-[82px] md:w-[92px] lg:w-[100x] 3xl:w-[110px] shadow-white left-6/11 top-1/3 -translate-y-2/7 3xl:top-4/9">
+                                    </div>
+                                    <div class="project1__description flex flex-col justify-between absolute w-full bg-card-bg-light p-[16px] lg:p-[24px] 3xl:p-[30px] 3xl:h-[145px] bottom-0 left-0">
+                                        <h3 class="text-[16] lg:text-[18px]">Vs Code Clone</h3>
+                                        <p class="project__description text-accent-highlight text-[12px] lg:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, itaque minima aliquid.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <button class="text-[16px] w-[263px] h-[45px] border-[1px] border-accent-highlight text-accent-highlight 
+                            rounded-[3px] hover:cursor-pointer hover:text-white hover:bg-white/20 hover:border-none transition duration-250
+                            mx-auto 3xl:mr-0">See All Projects</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta flex items-center p-[16px] lg:p-[60px] 3xl:p-[120px]" id="cta">
+            <div class="container max-w-full mx-[22px] my-[36px] md:m-[66px] lg:m-[64px] 3xl:mx-[124px] 3xl:my-[60px]">
+                <div class="cta flex justify-center">
+                    <div class="cta__contents flex flex-col items-center gap-[32px] md:gap-[64px] lg:gap-[94px] 3xl:gap-[162px] 3xl:flex-row text-[#FDFDFD]">
+                        <div class="cta__description flex flex-col items-start gap-[14px] lg:gap-[20px] xl:gap-[12px] max-w-[912px] 3xl:w-full">
+                            <h2 class="text-[28px] text-primary font-light md:text-[40px] mx-auto">Let's turn your ideas into <span class="font-medium">Reality</span></h2>
+                            <p class="text-[14px]/[24px] text-accent font-normal md:text-[16px]/[32px] mb-[24px] md:mb-[32px] lg:mb-[48px] text-center">
+                                I am the genie of software development. If you need a striking website, or a sleek software that leaves lasting experience, clicking the button is as easy as rubbing the lamp.</p>
+                            <div class="cta__buttons flex flex-col mx-auto gap-[16px] md:gap-[24px] md:flex-row lg:gap-[32px]">
+                                <a href="../files/Kenaniah-Daniel-Sumang-Resume.pdf" download>
+                                    <button class="text-[16px] w-[263px] h-[45px] text-accent-highlight bg-white/20
+                                        rounded-[3px] hover:cursor-pointer hover:text-white hover:bg-white/0 hover:border-[1px] transition duration-250
+                                        mx-auto 3xl:mx-0">Download CV</button>
                                 </a>
-                            </div>
-                            <div class="footer__nav flex flex-col lg:flex-row md:flex-wrap gap-[10px] lg:gap-[18px] justify-between items-center md:items-start lg:absolute lg:w-1/3 lg:left-1/2 lg:-translate-x-1/2">
-                                <ul class="flex flex-col gap-[10px] md:gap-[14px] lg:gap-[16px] 3xl:gap-[20px] font-light-normal items-center md:items-start ">
-                                    <li class="flex items-start"><a href="#aboutMe" class="font-regular">ABOUT</a></li>
-                                    <li class="flex items-start"><a href="#projects" class="font-regular">PROJECTS</a></li>
-                                </ul>
-                                <ul class="flex flex-col gap-[10px] md:gap-[14px] lg:gap-[16px] 3xl:gap-[20px] font-light-normal items-center md:items-start ">
-                                    <li class="flex items-start"><a href="#" class="font-regular">EXPERIENCE</a></li>
-                                    <li class="flex items-start"><a href="#cta" class="font-regular">CONTACT</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="footer__contacts_socials flex flex-col lg:absolute lg:w-1/3 lg:right-0 gap-[32px] md:gap-[64px] lg:gap-[48px] 3xl:gap-[71px]">
-                            <div class="footer__contacts flex flex-col gap-[10px] md:gap-[14px] lg:gap-[16px] 3xl:gap-[20px] font-light text-center md:text-right w-full">
-                                <p class="text-nowrap">#321, Brgy. II-A, San Pablo City, Laguna</p>
-                                <p>sumangkendaniel@gmail.com</p>
-                                <p>0919 501 9546</p>
-                            </div>
-                            <div class="footer__socials flex gap-[21px] mx-auto md:mx-0 md:ml-auto">
-                                <a href="https://www.facebook.com/kenaniahdaniel.sumang" target="_blank"><img src="../images/Facebook logo.png" alt="logo" class="w-[24px]"></a>
-                                <a href="https://www.linkedin.com/in/kenaniahdanielsumang/" target="_blank"><img src="../images/LinkedIn logo.png" alt="logo" class="w-[24px]"></a>
+                                <button class="text-[16px] w-[263px] h-[45px] border-[1px] border-accent-highlight text-accent-highlight 
+                                    rounded-[3px] hover:cursor-pointer hover:text-white hover:bg-white/20 hover:border-none transition duration-250
+                                    mx-auto 3xl:mx-0" href="#" >Hire Me</button>
                             </div>
                         </div>
                     </div>
-                    <p class="text-center text-[14px] font-light md:mx-auto 3xl:mt-[14px]">© 2025 kenaniahdaniel. All rights reserved</p>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
+
+        <div class="footer__line bg-primary p-[0.4px] mx-[38px] md:mx-[82px] lg:mx-[120px] 3xl:mx-[240px]"></div>
+
+        <footer class="footer flex items-center relative p-[16px] lg:px-[60px] lg:py-[24px] 3xl:pt-[64px] 3xl:pb-[48px] 3xl:px-[120px]">
+            <div class="container max-w-full mx-[22px] my-[32px] md:mx-[66px] md:my-[44px] lg:mx-[64px] lg:my-[32px] 3xl:mx-[124px] 3xl:my-0">
+                <div class="footer__wrapper flex justify-center">
+                    <div class="footer__contents flex flex-col w-full justify-center text-primary gap-[52px] md:gap-[64px] lg:gap-[94px] 3xl:gap-[71px]">
+                        <div class="footer__logo_nav_contacts_socials relative flex flex-col md:flex-row w-full justify-between gap-[32px] text-[14px] items-center lg:items-start text-primary xl:flex-row lg:h-[155px] 3xl:h-[173.5px]">
+                            <div class="footer__logo_nav flex flex-col justify-between h-full gap-[32px] 2xl:flex-row">
+                                <div class="footer__logo lg:absolute hover:cursor-pointer">
+                                    <a href="#">
+                                        <img src="../images/kd_logo.png" alt="logo" class="w-[156px] lg:w-[176px]">
+                                    </a>
+                                </div>
+                                <div class="footer__nav flex flex-col lg:flex-row md:flex-wrap gap-[10px] lg:gap-[18px] justify-between items-center md:items-start lg:absolute lg:w-1/3 lg:left-1/2 lg:-translate-x-1/2">
+                                    <ul class="flex flex-col gap-[10px] md:gap-[14px] lg:gap-[16px] 3xl:gap-[20px] font-light-normal items-center md:items-start ">
+                                        <li class="flex items-start"><a href="#aboutMe" class="font-regular">ABOUT</a></li>
+                                        <li class="flex items-start"><a href="#projects" class="font-regular">PROJECTS</a></li>
+                                    </ul>
+                                    <ul class="flex flex-col gap-[10px] md:gap-[14px] lg:gap-[16px] 3xl:gap-[20px] font-light-normal items-center md:items-start ">
+                                        <li class="flex items-start"><a href="#" class="font-regular">EXPERIENCE</a></li>
+                                        <li class="flex items-start"><a href="#cta" class="font-regular">CONTACT</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer__contacts_socials flex flex-col lg:absolute lg:w-1/3 lg:right-0 gap-[32px] md:gap-[64px] lg:gap-[48px] 3xl:gap-[71px]">
+                                <div class="footer__contacts flex flex-col gap-[10px] md:gap-[14px] lg:gap-[16px] 3xl:gap-[20px] font-light text-center md:text-right w-full">
+                                    <p class="text-nowrap">#321, Brgy. II-A, San Pablo City, Laguna</p>
+                                    <p>sumangkendaniel@gmail.com</p>
+                                    <p>0919 501 9546</p>
+                                </div>
+                                <div class="footer__socials flex gap-[21px] mx-auto md:mx-0 md:ml-auto">
+                                    <a href="https://www.facebook.com/kenaniahdaniel.sumang" target="_blank"><img src="../images/Facebook logo.png" alt="logo" class="w-[24px]"></a>
+                                    <a href="https://www.linkedin.com/in/kenaniahdanielsumang/" target="_blank"><img src="../images/LinkedIn logo.png" alt="logo" class="w-[24px]"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center text-[14px] font-light md:mx-auto 3xl:mt-[14px]">© 2025 kenaniahdaniel. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
