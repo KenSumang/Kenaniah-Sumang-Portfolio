@@ -14,6 +14,7 @@
     --spacing: 0.25rem;
     --text-8xl: 6rem;
     --text-8xl--line-height: 1;
+    --font-weight-extralight: 200;
     --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
@@ -254,8 +255,11 @@
   .my-\[36px\] {
     margin-block: 36px;
   }
-  .my-auto {
-    margin-block: auto;
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
   }
   .mt-\[40px\] {
     margin-top: 40px;
@@ -289,6 +293,9 @@
   }
   .h-\[670px\] {
     height: 670px;
+  }
+  .h-fit {
+    height: fit-content;
   }
   .h-full {
     height: 100%;
@@ -398,6 +405,12 @@
   .gap-\[21px\] {
     gap: 21px;
   }
+  .gap-\[24px\] {
+    gap: 24px;
+  }
+  .gap-\[28px\] {
+    gap: 28px;
+  }
   .gap-\[30px\] {
     gap: 30px;
   }
@@ -472,14 +485,38 @@
   .object-center {
     object-position: center;
   }
+  .p-\[\.8px\] {
+    padding: .8px;
+  }
+  .p-\[0\.2px\] {
+    padding: 0.2px;
+  }
   .p-\[0\.4px\] {
     padding: 0.4px;
+  }
+  .p-\[0\.8px\] {
+    padding: 0.8px;
+  }
+  .p-\[1px\] {
+    padding: 1px;
   }
   .p-\[16px\] {
     padding: 16px;
   }
   .py-\[0px\] {
     padding-block: 0px;
+  }
+  .pt-\[0\.2px\] {
+    padding-top: 0.2px;
+  }
+  .pt-\[0\.4px\] {
+    padding-top: 0.4px;
+  }
+  .pt-\[0\.14px\] {
+    padding-top: 0.14px;
+  }
+  .pl-\[0\.2px\] {
+    padding-left: 0.2px;
   }
   .text-center {
     text-align: center;
@@ -513,6 +550,10 @@
   }
   .text-\[28px\] {
     font-size: 28px;
+  }
+  .font-extralight {
+    --tw-font-weight: var(--font-weight-extralight);
+    font-weight: var(--font-weight-extralight);
   }
   .font-light {
     --tw-font-weight: var(--font-weight-light);
@@ -582,32 +623,12 @@
   .transform-3d {
     transform-style: preserve-3d;
   }
-  .hover\:scale-2 {
-    &:hover {
-      @media (hover: hover) {
-        --tw-scale-x: 2%;
-        --tw-scale-y: 2%;
-        --tw-scale-z: 2%;
-        scale: var(--tw-scale-x) var(--tw-scale-y);
-      }
-    }
-  }
   .hover\:scale-105 {
     &:hover {
       @media (hover: hover) {
         --tw-scale-x: 105%;
         --tw-scale-y: 105%;
         --tw-scale-z: 105%;
-        scale: var(--tw-scale-x) var(--tw-scale-y);
-      }
-    }
-  }
-  .hover\:scale-125 {
-    &:hover {
-      @media (hover: hover) {
-        --tw-scale-x: 125%;
-        --tw-scale-y: 125%;
-        --tw-scale-z: 125%;
         scale: var(--tw-scale-x) var(--tw-scale-y);
       }
     }
@@ -655,10 +676,11 @@
       }
     }
   }
-  .hover\:text-\[15px\] {
+  .hover\:font-light-normal {
     &:hover {
       @media (hover: hover) {
-        font-size: 15px;
+        --tw-font-weight: var(--font-weight-light-normal);
+        font-weight: var(--font-weight-light-normal);
       }
     }
   }
@@ -667,11 +689,6 @@
       @media (hover: hover) {
         color: var(--color-white);
       }
-    }
-  }
-  .sm\:mx-auto {
-    @media (width >= 40rem) {
-      margin-inline: auto;
     }
   }
   .md\:m-\[66px\] {
@@ -872,9 +889,9 @@
       margin-bottom: 48px;
     }
   }
-  .lg\:ml-auto {
+  .lg\:block {
     @media (width >= 64rem) {
-      margin-left: auto;
+      display: block;
     }
   }
   .lg\:flex {
@@ -943,6 +960,11 @@
       translate: var(--tw-translate-x) var(--tw-translate-y);
     }
   }
+  .lg\:flex-col {
+    @media (width >= 64rem) {
+      flex-direction: column;
+    }
+  }
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
@@ -951,6 +973,11 @@
   .lg\:items-start {
     @media (width >= 64rem) {
       align-items: flex-start;
+    }
+  }
+  .lg\:gap-\[6px\] {
+    @media (width >= 64rem) {
+      gap: 6px;
     }
   }
   .lg\:gap-\[7px\] {
@@ -991,6 +1018,11 @@
   .lg\:gap-\[94px\] {
     @media (width >= 64rem) {
       gap: 94px;
+    }
+  }
+  .lg\:gap-\[96px\] {
+    @media (width >= 64rem) {
+      gap: 96px;
     }
   }
   .lg\:p-\[24px\] {
@@ -1170,6 +1202,16 @@
       justify-content: space-between;
     }
   }
+  .\33 xl\:gap-\[6px\] {
+    @media (width >= 112rem) {
+      gap: 6px;
+    }
+  }
+  .\33 xl\:gap-\[8px\] {
+    @media (width >= 112rem) {
+      gap: 8px;
+    }
+  }
   .\33 xl\:gap-\[20px\] {
     @media (width >= 112rem) {
       gap: 20px;
@@ -1180,9 +1222,24 @@
       gap: 71px;
     }
   }
+  .\33 xl\:gap-\[94px\] {
+    @media (width >= 112rem) {
+      gap: 94px;
+    }
+  }
+  .\33 xl\:gap-\[98px\] {
+    @media (width >= 112rem) {
+      gap: 98px;
+    }
+  }
   .\33 xl\:gap-\[162px\] {
     @media (width >= 112rem) {
       gap: 162px;
+    }
+  }
+  .\33 xl\:gap-\[200px\] {
+    @media (width >= 112rem) {
+      gap: 200px;
     }
   }
   .\33 xl\:p-\[30px\] {

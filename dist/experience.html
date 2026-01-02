@@ -171,38 +171,56 @@
         <footer class="footer flex items-center relative p-[16px] lg:px-[60px] lg:py-[24px] 3xl:pt-[64px] 3xl:pb-[48px] 3xl:px-[120px]">
             <div class="container max-w-full mx-[22px] my-[32px] md:mx-[66px] md:my-[44px] lg:mx-[64px] lg:my-[32px] 3xl:mx-[124px] 3xl:my-0">
                 <div class="footer__wrapper flex justify-center">
-                    <div class="footer__contents flex flex-col w-full justify-center text-primary gap-[52px] md:gap-[64px] lg:gap-[94px] 3xl:gap-[71px]">
-                        <div class="footer__logo_nav_contacts_socials relative flex flex-col md:flex-row w-full justify-between gap-[32px] text-[14px] items-center lg:items-start text-primary xl:flex-row lg:h-[155px] 3xl:h-[173.5px]">
-                            <div class="footer__logo_nav flex flex-col justify-between h-full gap-[32px] 2xl:flex-row">
-                                <div class="footer__logo lg:absolute hover:cursor-pointer">
-                                    <a href="#">
-                                        <img src="../images/kd_logo.png" alt="logo" class="w-[156px] lg:w-[176px]">
+                    <div class="footer__contents flex flex-col w-full justify-center text-primary gap-[52px] md:gap-[64px] lg:gap-[96px] 3xl:gap-[98px]">
+                        <div class="footer__logo_nav_contacts flex flex-col md:flex-row w-full justify-between gap-[32px] text-[14px] items-center lg:items-start text-primary xl:flex-row lg:-h-[75px]">
+                            <div class="footer__logo hover:cursor-pointer hidden lg:block">
+                                <a href="./index.html">
+                                    <img src="../images/kd_logo.png" alt="logo" class="w-[156px] lg:w-[176px]">
+                                </a>
+                            </div>
+                            <ul class="hidden gap-[10px] md:gap-[14px] lg:gap-[6px] font-light-normal items-center md:items-start lg:flex lg:flex-col">
+                                <li class="flex items-start"><a href="./about.html" class="font-light hover:font-light-normal hover:text-white transition duration-250">ABOUT</a></li>
+                                <li class="flex items-start"><a href="./projects.html" class="font-light hover:font-light-normal hover:text-white transition duration-250">PROJECTS</a></li>
+                            </ul>
+                            <ul class="hidden gap-[10px] md:gap-[14px] lg:gap-[6px] font-light-normal items-center md:items-start lg:flex lg:flex-col">
+                                <li class="flex items-start"><a href="./experience.html" class="font-light hover:font-light-normal hover:text-white transition duration-250">EXPERIENCE</a></li>
+                                <li class="flex items-start"><a href="./contact.html" class="font-light hover:font-light-normal hover:text-white transition duration-250">CONTACT</a></li>
+                            </ul>
+                            <div class="footer__logo_nav flex flex-col justify-between h-full gap-[32px] lg:hidden">
+                                <div class="footer__logo hover:cursor-pointer">
+                                    <a href="./index.html">
+                                        <img src="../images/kd_logo.png" alt="logo" class="w-[156px]">
                                     </a>
                                 </div>
-                                <div class="footer__nav flex flex-col lg:flex-row md:flex-wrap gap-[10px] lg:gap-[18px] justify-between items-center md:items-start lg:absolute lg:w-1/3 lg:left-1/2 lg:-translate-x-1/2">
-                                    <ul class="flex flex-col gap-[10px] md:gap-[14px] lg:gap-[16px] 3xl:gap-[20px] font-light-normal items-center md:items-start ">
-                                        <li class="flex items-start"><a href="./about.html" class="font-regular">ABOUT</a></li>
-                                        <li class="flex items-start"><a href="./projects.html" class="font-regular">PROJECTS</a></li>
+                                <div class="footer__nav flex flex-col  md:flex-wrap gap-[10px] lg:gap-[18px] justify-between items-center md:items-start">
+                                    <ul class="flex flex-col gap-[10px] md:gap-[14px] font-light-normal items-center md:items-start">
+                                        <li class="flex items-start"><a href="./about.html" class="font-light hover:font-light-normal hover:text-white transition duration-250">ABOUT</a></li>
+                                        <li class="flex items-start"><a href="./projects.html" class="font-light hover:font-light-normal hover:text-white transition duration-250">PROJECTS</a></li>
                                     </ul>
-                                    <ul class="flex flex-col gap-[10px] md:gap-[14px] lg:gap-[16px] 3xl:gap-[20px] font-light-normal items-center md:items-start ">
-                                        <li class="flex items-start"><a href="./experience.html" class="font-regular">EXPERIENCE</a></li>
-                                        <li class="flex items-start"><a href="./contact.html" class="font-regular">CONTACT</a></li>
+                                    <ul class="flex flex-col gap-[10px] md:gap-[14px] font-light-normal items-center md:items-start">
+                                        <li class="flex items-start"><a href="./experience.html" class="font-light hover:font-light-normal hover:text-white transition duration-250">EXPERIENCE</a></li>
+                                        <li class="flex items-start"><a href="./contact.html" class="font-light hover:font-light-normal hover:text-white transition duration-250">CONTACT</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="footer__contacts_socials flex flex-col lg:absolute lg:w-1/3 lg:right-0 gap-[32px] md:gap-[64px] lg:gap-[48px] 3xl:gap-[71px]">
-                                <div class="footer__contacts flex flex-col gap-[10px] md:gap-[14px] lg:gap-[16px] 3xl:gap-[20px] font-light text-center md:text-right w-full">
-                                    <a href="https://maps.app.goo.gl/Bzx23FUucMP6xu8W6" target="_blank"><p class="text-nowrap">San Pablo City, Laguna</p></a>
-                                    <p>sumangkendaniel@gmail.com</p>
-                                    <p>(+63) 919-501-9546</p>
-                                </div>
-                                <div class="footer__socials flex gap-[21px] mx-auto md:mx-0 md:ml-auto">
-                                    <a href="https://www.facebook.com/kenaniahdaniel.sumang" target="_blank"><img src="../images/Facebook logo.png" alt="logo" class="w-[24px]"></a>
-                                    <a href="https://www.linkedin.com/in/kenaniahdanielsumang/" target="_blank"><img src="../images/LinkedIn logo.png" alt="logo" class="w-[24px]"></a>
-                                </div>
+                            <div class="footer__contacts flex flex-col gap-[10px] md:gap-[14px] lg:gap-[6px] font-light text-center md:text-right">
+                                <a href="https://maps.app.goo.gl/Bzx23FUucMP6xu8W6" target="_blank" class="w-fit mx-auto md:ml-auto md:mx-0">
+                                    <p class="text-nowrap hover:text-white w-fit transition duration-250">San Pablo City, Laguna</p>
+                                </a>
+                                <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&dsh=S1627660388%3A1766945489862404&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&ifkv=Ac2yZaUY7R3X3fuBYicVJu1VSLkB28sBBMKoSN_nY0YS58wZNTBxwT_eIdp8up40euiB86anFaCiBA&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin#inbox?compose=new" 
+                                    target="_blank" class="w-fit mx-auto md:ml-auto md:mx-0">
+                                    <p class="hover:text-white w-fit transition duration-250">sumangkendaniel@gmail.com</p>
+                                </a>
+                                <p class="hover:text-white w-fit mx-auto md:ml-auto md:mx-0 transition duration-250">(+63) 919-501-9546</p>
                             </div>
                         </div>
-                        <p class="text-center text-[14px] font-light md:mx-auto 3xl:mt-[14px]">© 2025 kenaniahdaniel. All rights reserved</p>
+                        <div class="footer__socials_copyright w-full flex flex-col gap-[28px] items-center">
+                            <div class="footer__socials flex gap-[24px]">
+                                <a href="https://www.facebook.com/kenaniahdaniel.sumang" target="_blank"><img src="../images/Facebook logo.png" alt="logo" class="w-[24px]"></a>
+                                <a href="https://www.linkedin.com/in/kenaniahdanielsumang/" target="_blank"><img src="../images/LinkedIn logo.png" alt="logo" class="w-[24px]"></a>
+                            </div>
+                            <p class="text-[14px] w-fit font-light">© 2025 kenaniahdaniel. All rights reserved</p>
+                        </div>
                     </div>
                 </div>
             </div>
