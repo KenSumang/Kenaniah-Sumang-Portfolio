@@ -54,6 +54,12 @@
     animation-range: entry 0% cover 40%;
 }
 
+.blockappear-low {
+    animation: blockappear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 10%;
+}
+
 .left-slideappear {
     animation: leftslideappear linear;
     animation-timeline: view();
