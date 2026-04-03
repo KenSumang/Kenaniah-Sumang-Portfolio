@@ -8,7 +8,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch"
+    "tailwind": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"
   },
   "author": "",
   "license": "ISC",
