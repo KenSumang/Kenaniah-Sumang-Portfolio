@@ -1,6 +1,6 @@
 const base = window.location.hostname === "127.0.0.1"
     ? 'http://127.0.0.1:5500'
-    : 'https://github.com/KenSumang/Kenaniah-Sumang-Portfolio/tree/main';
+    : 'https://github.com/KenSumang/Kenaniah-Sumang-Portfolio/blob/main';
 
 // async function loadComponent(id, file) {
 //     // console.log(`${base}${file}`);
