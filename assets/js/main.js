@@ -1,6 +1,6 @@
 const base = window.location.hostname === "127.0.0.1"
     ? 'http://127.0.0.1:5500'
-    : 'https://github.com/KenSumang/Kenaniah-Sumang-Portfolio.git';
+    : 'https://github.com/KenSumang/Kenaniah-Sumang-Portfolio/tree/main';
 
 // async function loadComponent(id, file) {
 //     // console.log(`${base}${file}`);
@@ -21,7 +21,8 @@ async function loadComponent(selector, file) {
         response = await fetch(`${base}${file}`);
     }
     // const response = await fetch('${base}${file}');
-    console.log(response);
+    // console.log(response);
+    // console.log(`${base}${file}`);
     const html = await response.text();
     document.getElementById(selector).innerHTML = html;
 }
