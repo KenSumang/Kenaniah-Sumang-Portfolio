@@ -24,6 +24,7 @@ async function loadComponent(selector, file) {
     // console.log(response);
     // console.log(`${base}${file}`);
     const html = await response.text();
+    console.log(html);
     document.getElementById(selector).innerHTML = html;
 }
 
